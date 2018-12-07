@@ -25,6 +25,9 @@ bot.on('message', function(message){
    if(message.content.startsWith("scr00m")){
 
    }
-
+if(message.content == "hello world")
+{
+  message.channel.send("hello people")
+}
  });
-bot.login('NTE4ODM1NzE0MjgxMTc3MTA4.DuWkHw.hopwemrXaRxtStkKK2EFpBmP4jA');
+bot.login(process.env.BOT_TOKEN);

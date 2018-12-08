@@ -20,7 +20,7 @@ bot.on('message', function(message){
      message.channel.send("I am good!", {files: ["good.PNG"]});
    }
      if(message.content.startsWith("r00by")){
-     message.channel.send("omGMOgmo", {files: ["r00by.PNG"]});
+     message.channel.send("omGMOgmo", {files: ["https://cdn.discordapp.com/attachments/515976436234977303/520882570204938251/r00by.png"]});
    }
    if(message.content.startsWith("scr00m")){
 

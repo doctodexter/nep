@@ -30,4 +30,15 @@ if(message.content == "hello world"))
   message.channel.send("hello people")
 }
  });
+ let activeNumber = 0;
+ setInterval(function () {
+   if(activeNumber === 0) {
+     bot.user.setActivity("with my daddy ;) (xdd#6547)", {type: "PLAYING"});
+     activeNumber = 1;
+   }
+   else if (activeNumber === 1) {
+     bot.user.setActivity("Old Songs" , {type :"LISTENING"});
+     activeNumber = 0;
+   }
+ }, 10*1000);
 bot.login(process.env.BOT_TOKEN);

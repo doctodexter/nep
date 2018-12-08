@@ -25,7 +25,7 @@ bot.on('message', function(message){
    if(message.content.startsWith("scr00m")){
 
    }
-if(message.content == "hello world")
+if(message.content == "hello world"))
 {
   message.channel.send("hello people")
 }

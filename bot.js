@@ -45,4 +45,4 @@ if(message.content == "hello world"))
      activeNumber = 0;
    }
  }, 10*1000);
-bot.login(process.env.BOT_TOKEN);
+bot.login("xG8BeFXPzUj4DEJp-57QzzUGfe34VU3_");

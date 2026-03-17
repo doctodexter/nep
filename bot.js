@@ -7,7 +7,7 @@ bot.on('message', function(message){
   }
    if(message.content == 'bab')
    {
-     message.channel.send('nNONOnoNOnoNOOgoMOGMO MO gmoMO GGMO gmo i GIB KISS')
+     message.channel.send('nNONOnoNOnoNOOgo')
    }
    if(message.content == 'goodbye')
    {
@@ -37,7 +37,7 @@ if(message.content == "hello world"))
  let activeNumber = 0;
  setInterval(function () {
    if(activeNumber === 0) {
-     bot.user.setActivity("with my daddy ;) (xdd#6547)", {type: "PLAYING"});
+     bot.user.setActivity("with my", {type: "PLAYING"});
      activeNumber = 1;
    }
    else if (activeNumber === 1) {
